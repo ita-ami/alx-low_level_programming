@@ -1,12 +1,8 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * 
  * Description: 'the program's description'
  * @parameter: describe the parameter
- *
- * {} : code's block
- *
  * Return: Always 0 (Success)
  */
 int main(void)
