@@ -3,7 +3,6 @@
  * main - Entry point
  * Description: 'the program's description'
  * @parameter: describe the parameter
- *'parametr'
  * Return: Always 0 (Success)
  */
 int main(void)
