@@ -1,8 +1,5 @@
 #include <stdio.h>
-/*
- * entry point 
-*/
-int main(void)
+int main(void) /* entry point */
 {
 	char jaw[] = "\"Programming is like building a multilingual puzzle";
 
