@@ -1,10 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/**
- * main: entry point
- * return: always 0 (succes)
- */
+ /**
+  * main - Entry point
+  * Description: 'the program's description'
+  * parameter: describe the parameter
+  * Return: Always 0 (Success)
+  */
 
 int main(void)
 {
