@@ -32,7 +32,7 @@ int main(void)
 			}//B
 		}
 		a++;
-		b = a * 2;
+		b = a + 1;
 	}//A
 	putchar('\n');
 	return (0);
