@@ -41,7 +41,10 @@ int main(void)
 			}
 			b++;
 			d = b + 1;
-			c = a;
+			if (a = '0')
+			{
+			c = '0';
+			}
 		}
 		a++;
 		c = a;
