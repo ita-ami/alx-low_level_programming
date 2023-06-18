@@ -9,6 +9,7 @@ int main(void)
 	int b = '0';
 	int c = '0';
 	int d = '0';
+	int e = 0 ;
 
 	while (a <= '9')
 	{
@@ -31,10 +32,11 @@ int main(void)
 					d++;
 				}
 				c++;
-				d = c - 1;
+				d = e;
 			}
 			b++;
-			c = b - 1;
+			c = 0;
+			e = 2;
 		}
 		a++;
 		b = '0';
