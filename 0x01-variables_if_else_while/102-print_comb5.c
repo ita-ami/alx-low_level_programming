@@ -25,26 +25,14 @@ int main(void)
 						putchar(' ');
 						putchar(c);
 						putchar(d);
-						if ((a + b + c + d) != ('9' + '8' + '9' + '9'))
-						{
-							putchar(',');
-							putchar(' ');
-						}
+						putchar(',');
+						putchar(' ');
 					}
 					d++;
 				}
 				c++;
-				if ((b == '0') && (a == '0'))
-				{
-				d = '0';
-				}
 			}
 			b++;
-			d = b + 1;
-			if (a == '0')
-			{
-			c = '0';
-			}
 		}
 		a++;
 		c = a;
