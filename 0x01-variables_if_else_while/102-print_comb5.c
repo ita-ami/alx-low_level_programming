@@ -31,12 +31,13 @@ int main(void)
 					d++;
 				}
 				c++;
-				d = '0';
+				d = c - 1;
 			}
 			b++;
-			c = '0';
+			c = b - 1;
 		}
 		a++;
+		b = '0';
 	}
 	putchar('\n');
 	return (0);
