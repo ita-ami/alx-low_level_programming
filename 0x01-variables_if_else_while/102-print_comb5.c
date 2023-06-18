@@ -35,8 +35,9 @@ int main(void)
 				d = e;
 			}
 			b++;
-			c = '0';
+			c = e;
 			e = b + 1;
+			d = e ;
 		}
 		a++;
 		b = '0';
