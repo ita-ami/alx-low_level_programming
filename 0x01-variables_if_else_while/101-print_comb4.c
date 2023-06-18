@@ -6,18 +6,16 @@
 int main(void)
 {
 	int a = '0';
-	int b ;
-	int c ;
+	int b = '1';
+	int c = '2';
 
 	while (a <= '9')
 	{
 		{
 			while (b <= '9')
 			{
-				b = a + 1;
 				while (c <= '9')
 				{
-					c = b +1;
 					if ((a != b) && (b != c))
 					{
 					putchar(a);
