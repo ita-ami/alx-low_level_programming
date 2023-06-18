@@ -26,10 +26,10 @@ int main(void)
 						putchar(' ');
 						putchar(c);
 						putchar(d);
-						if ((a + b + c + d) != ('9' + '8' + '9' +'9'))
+						if ((a + b + c + d) != ('9' + '8' + '9' + '9'))
 						{
-						putchar(',');
-						putchar(' ');
+							putchar(',');
+							putchar(' ');
 						}
 					}
 					d++;
@@ -38,13 +38,13 @@ int main(void)
 				d = e;
 			}
 			b++;
+			c =a;
 			e = b + 1;
-
 		}
 		a++;
 		b = '0';
 		c = a;
 	}
-	putchar('\n');
-	return (0);
+putchar('\n');
+return (0);
 }
