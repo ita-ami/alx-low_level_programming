@@ -34,10 +34,16 @@ int main(void)
 					d++;
 				}
 				c++;
+				if ((b = '0') && (a = '0'))
+				{
+				d = '0';
+				}
 			}
 			b++;
+			d = b + 1;
 		}
 		a++;
+		c = a;
 	}
 	putchar('\n');
 	return (0);
