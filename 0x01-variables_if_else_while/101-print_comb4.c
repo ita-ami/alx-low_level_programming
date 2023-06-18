@@ -30,6 +30,7 @@ int main(void)
 					c++;
 				}
 			b++;
+			c++;
 			}
 		}
 		a++;
