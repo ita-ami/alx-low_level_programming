@@ -10,19 +10,22 @@ int main(void)
 
 	while (a <= '9')
 	{
-		b = '1';
 		if (a != b)
 		{
 		while (b <= '9')
 		{
 			putchar(a);
 			putchar(b);
+			if ((a + b ) != ('7' + '9'))
+			{
 			putchar(',');
 			putchar(' ');
+			}
 			b++;
 		}
 		}
 		a++;
+		b = (a + 2);
 	}
 	return (0);
 }
