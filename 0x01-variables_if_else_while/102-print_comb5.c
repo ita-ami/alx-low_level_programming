@@ -41,6 +41,7 @@ int main(void)
 			}
 			b++;
 			d = b + 1;
+			c = a;
 		}
 		a++;
 		c = a;
