@@ -30,7 +30,7 @@ int main(void)
 					c++;
 				}
 			b++;
-			c++;
+			c = b + 1;
 			}
 		}
 		a++;
