@@ -21,7 +21,7 @@ int main(void)
 					putchar(a);
 					putchar(b);
 					putchar(c);
-					if ((a + b + c) != ('6' + '8' + '9'))
+					if ((a + b + c) != ('7' + '8' + '9'))
 					{
 					putchar(',');
 					putchar(' ');
