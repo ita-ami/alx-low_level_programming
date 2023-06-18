@@ -6,16 +6,18 @@
 int main(void)
 {
 	int a = '0';
-	int b = '1';
-	int c = '2';
+	int b ;
+	int c ;
 
 	while (a <= '9')
 	{
 		{
 			while (b <= '9')
 			{
+				b = a + 1;
 				while (c <= '9')
 				{
+					c = b +1;
 					if ((a != b) && (b != c))
 					{
 					putchar(a);
@@ -30,11 +32,9 @@ int main(void)
 					c++;
 				}
 			b++;
-			c = b + 1;
 			}
 		}
 		a++;
-		b++;
 	}
 	putchar('\n');
 	return (0);
