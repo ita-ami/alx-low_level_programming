@@ -27,12 +27,12 @@ int main(void)
 					}
 					c++;
 				}
-			b++;
 			c = b + 1;
+			b++;
 			}
 		}
-		a++;
 		b = a + 1;
+		a++;
 	}
 	putchar('\n');
 	return (0);
