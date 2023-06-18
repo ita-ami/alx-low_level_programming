@@ -35,16 +35,11 @@ int main(void)
 					d++;
 				}
 				c++;
-				d = e;
 			}
 			b++;
-			c =a;
-			e = b + 1;
 		}
 		a++;
-		b = '0';
-		c = a;
 	}
-putchar('\n');
-return (0);
+	putchar('\n');
+	return (0);
 }
