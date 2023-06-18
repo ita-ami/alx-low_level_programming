@@ -9,13 +9,13 @@ int main(void)
 	int b = '1';
 	int c = '2';
 
-	while (a <= '9')
+	while (a <= '9')//A
 	{
 		if ((a != b) && (b != c))
 		{
-			while (b <= '9')
+			while (b <= '9')//B
 			{
-				while (c <= '9')
+				while (c <= '9')//C
 				{
 					putchar(a);
 					putchar(b);
@@ -26,13 +26,14 @@ int main(void)
 					putchar(' ');
 					}
 					c++;
-				}
+				}//C
 			b++;
 			c = b + 1;
-			}
+			}//B
 		}
 		a++;
-	}
+		b = a * 2;
+	}//A
 	putchar('\n');
 	return (0);
 }
