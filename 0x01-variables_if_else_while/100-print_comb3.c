@@ -27,5 +27,6 @@ int main(void)
 		a++;
 		b = (a + 2);
 	}
+	putchar('\n');
 	return (0);
 }
