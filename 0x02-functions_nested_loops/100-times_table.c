@@ -11,6 +11,7 @@ void print_times_table(int n)
 	{
 		for (i = 0; i <= n; i++)
 		{
+			j = 0;
 			for (j = 0; j <= 0; j++)
 			{
 				int d = (i * j);
