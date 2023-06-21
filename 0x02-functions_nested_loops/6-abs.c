@@ -16,5 +16,4 @@ int m;
 m = n * (-1);
 _putchar(m);
 }
-return (0);
 }
