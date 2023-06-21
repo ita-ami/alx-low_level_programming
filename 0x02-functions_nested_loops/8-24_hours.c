@@ -13,11 +13,6 @@ void jack_bauer(void)
 		while (b <= '9')
 		{
 			
-		if ((a == '2') && (b == '4'))
-		{
-			b = '9';
-			b++;
-		}
 		c = '0';
 
 			while (c <= '5')
@@ -35,6 +30,11 @@ void jack_bauer(void)
 					d++;
 				}
 				c++;
+			}
+			if ((a == '2') && (b == '4'))
+			{
+				b = '9';
+				b++;
 			}
 			b++;
 		}
