@@ -15,7 +15,7 @@ while (c <= '5')
 {
 char d = '0';
 
-while(d <= '9')
+while (d <= '9')
 {
 _putchar(a);
 _putchar(b);
