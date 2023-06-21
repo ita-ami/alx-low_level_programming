@@ -4,14 +4,15 @@
 */
 int _islower(int c)
 {
-int c ;
 
 char i = 'a';
+
 while (i <= 'z')
 {
 if (c == i)
 {
 return (1);
 }
+i++;
 }
 }
