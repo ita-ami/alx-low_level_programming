@@ -6,7 +6,7 @@ int main(void)
 	int m, k, mi, sum1, sum2, sum, l;
 	sum1 = 0;
 	sum2 = 0;
-	mi = o;
+	mi = 0;
 	for (a=0; a <= (1024 / 3); a++)
 	{
 		m = (a * 3);
