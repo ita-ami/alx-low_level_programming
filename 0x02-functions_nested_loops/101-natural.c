@@ -6,7 +6,7 @@ int main(void)
 	int m, k, sum1, sum2, sum;
 	sum1 = 0;
 	sum2 = 0;
-	for (a=0; a <= 400; a++)
+	for (a=0; a <= (1024 / 3); a++)
 	{
 		m = (a * 3);
 		if (m < n)
@@ -14,7 +14,7 @@ int main(void)
 			sum1 = (sum1 + m);
 		}
 	}
-	for (a = 0; a <= 300; a++)
+	for (a = 0; a <= (1024 /5); a++)
 	{
 		k = ( a * 5);
 		if (k < n)
