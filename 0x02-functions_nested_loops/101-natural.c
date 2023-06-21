@@ -15,13 +15,12 @@ int main(void)
 		{
 			sum1 = (sum1 + m);
 		}
-		printf(" c");
-		k = ( a * 5);
+		k = (a * 5);
 		if (k < n)
 		{
 			sum2 = (sum2 + k);
 		}
-		printf("c");
+		n = 1024;
 		if (k == m)
 		{
 			mi = (mi + m);
