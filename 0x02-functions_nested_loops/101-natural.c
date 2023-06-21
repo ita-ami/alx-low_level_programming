@@ -3,7 +3,7 @@ int main(void)
 {
 	int n = 1024;
 	int a = 0;
-	int m, k, mi, sum1, sum2, sum;
+	int m, k, mi, sum1, sum2, sum, l;
 	sum1 = 0;
 	sum2 = 0;
 	mi = 0;
@@ -27,11 +27,10 @@ int main(void)
 	
 	for (a=0; a <= (1024 / 3); a++)
 	{
-		m = (a * 3);
-		k = (a * 5);
-		if (k == m)
+		l = (a * 15);
+		if (l < n)
 		{
-			mi = (mi + m);
+			mi = (mi + l);
 		}
 	}
 	sum = (sum1 + sum2 - mi);
