@@ -17,7 +17,7 @@ int main(void)
 	for (a = 0; a <= (1024 /5); a++)
 	{
 		k = ( a * 5);
-		if (k < n)
+		if (((k % 5) != 0) && (k < n))
 		{
 			sum2 = (sum2 + k);
 		}
