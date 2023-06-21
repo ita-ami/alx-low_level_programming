@@ -9,7 +9,7 @@ int main(void)
 		m = (a * 3);
 		if (m <= n)
 		{
-			sum1 = (sum1 + m);
+			m = (m + m);
 		}
 	}
 	for (a = 0; a <= 300; a++)
@@ -17,9 +17,9 @@ int main(void)
 		k = ( a * 5);
 		if (k <= n)
 		{
-			sum2 = (sum2 + k);
+			k = (k + k);
 		}
-		sum = (sum1 + sum2);
+		sum = (m + k);
 		printf("%d",sum);
 
 	}
