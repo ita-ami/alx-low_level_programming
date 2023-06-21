@@ -36,10 +36,7 @@ void times_table(void)
 			}
 			b++;
 		}
-		if (a != 9)
-		{
-			_putchar('\n');
-		}
+		_putchar('\n');
 			
 		a++;
 
