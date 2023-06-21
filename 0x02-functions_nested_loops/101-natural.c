@@ -3,7 +3,7 @@ int main(void)
 {
 	int n = 1024;
 	int a = 0;
-	int m, k, sum1, sum2; sum;
+	int m, k, sum1, sum2, sum;
 	sum1 = 0;
 	sum2 = 0;
 	for (a=0; a <= 400; a++)
