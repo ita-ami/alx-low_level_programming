@@ -17,10 +17,6 @@ void print_times_table(int n)
 			while (j <= n)
 			{
 				int d = (i * j);
-				if (d == 0)
-				{
-					printf("%d",d);
-				}
 				if (j == 0)
 				{
 					printf("%d, ",d);
