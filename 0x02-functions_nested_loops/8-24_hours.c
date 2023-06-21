@@ -8,9 +8,13 @@ void jack_bauer(void)
 
 	while (a <= '2')
 	{
+		if ((a == '2') && (b == '4'))
+		{
+			a = '3';
+		}
 		b = '0';
 
-		while (b <= '3')
+		while (b <= '9')
 		{
 			c = '0';
 
