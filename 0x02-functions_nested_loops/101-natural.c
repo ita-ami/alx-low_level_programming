@@ -3,13 +3,15 @@ int main(void)
 {
 	int n = 1024;
 	int a = 0;
-	int m, k, sum;
+	int m, k, sum1; sum2; sum;
+	sum1 = 0;
+	sum2 = 0;
 	for (a=0; a <= 400; a++)
 	{
 		m = (a * 3);
 		if (m <= n)
 		{
-			m = (m + m);
+			sum1 = (sum1 + m);
 		}
 	}
 	for (a = 0; a <= 300; a++)
@@ -17,12 +19,12 @@ int main(void)
 		k = ( a * 5);
 		if (k <= n)
 		{
-			k = (k + k);
+			sum2 = (sum2 + k);
 		}
 
 	}
-	sum = (m + k);
-	printf("%d\n%d\n%d",m,k,sum);
+	sum = (sum1 + sum2);
+	printf("%d\n%d\n%d",sum1,sum2,sum);
 	return (0);
 }
 
