@@ -19,7 +19,7 @@ void print_times_table(int n)
 					printf("%d", d);
 				}
 				else
-					printf("%d, ");
+					printf("%d, ",d);
 			
 			}
 		}
