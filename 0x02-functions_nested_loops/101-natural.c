@@ -19,10 +19,10 @@ int main(void)
 		{
 			k = (k + k);
 		}
-		sum = (m + k);
-		printf("%d\n%d\n%d",m,k,sum);
 
 	}
+	sum = (m + k);
+	printf("%d\n%d\n%d",m,k,sum);
 	return (0);
 }
 
