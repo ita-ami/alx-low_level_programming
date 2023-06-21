@@ -34,7 +34,7 @@ int main(void)
 		}
 	}
 	sum = (sum1 + sum2 - mi);
-	printf("%d\n%d\n",mi,sum);
+	printf("%d\n",sum);
 	return (0);
 }
 
