@@ -1,4 +1,7 @@
 #include "main.h"
+/**
+ * jack_bauer -  a function that prints starting from 00:00 to 23:59.
+ */
 void jack_bauer(void)
 {
 	char a = '0';
@@ -11,8 +14,7 @@ void jack_bauer(void)
 		b = '0';
 
 		while (b <= '9')
-		{
-			
+		{		
 		c = '0';
 
 			while (c <= '5')
