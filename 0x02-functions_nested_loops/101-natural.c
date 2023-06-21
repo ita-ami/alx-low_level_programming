@@ -23,6 +23,7 @@ int main(void)
 		{
 			sum2 = (sum2 + k);
 		}
+	}
 	
 	for (a=0; a <= (1024 / 3); a++)
 	{
