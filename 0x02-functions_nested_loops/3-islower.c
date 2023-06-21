@@ -6,10 +6,12 @@ int _islower(int c)
 {
 int c ;
 
-if ((c >= 'a') && (c <= 'a'))
+char i = 'a';
+while (i <= 'z')
+{
+if (c == i)
 {
 return (1);
 }
-else
-return (0);
+}
 }
