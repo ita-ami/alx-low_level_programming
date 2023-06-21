@@ -3,8 +3,9 @@
 * print_sign - function that checks the sign of the input
 *
 *@n: the input or the argument of our function
-*
-*Return: return 1 if the n positive return 0 if the n is null return -1 if the n is negative 
+*Return: return 1 if the n positive
+*return 0 if the n is null
+*return -1 if the n is negative 
 */
 int print_sign(int n)
 {
