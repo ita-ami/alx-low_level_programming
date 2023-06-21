@@ -5,14 +5,12 @@
 int _islower(int c)
 {
 
-char i = 'a';
-
-while (i <= 'z')
-{
-if (c == i)
+if ((c >= 'a')&&(c <= 'z'))
 {
 return (1);
 }
+else
+return (0);
 i++;
 }
 }
