@@ -10,7 +10,7 @@ void jack_bauer(void)
 	{
 		b = '0';
 
-		while (b <= '9')
+		while (b <= '3')
 		{
 			c = '0';
 
