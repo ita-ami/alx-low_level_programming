@@ -17,7 +17,7 @@ char d = '0';
 
 while(d <= '9')
 {
-_putcahr(a);
+_putchar(a);
 _putchar(b);
 _putchar(':');
 _putchar(c);
