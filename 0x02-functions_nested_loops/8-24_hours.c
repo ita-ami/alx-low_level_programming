@@ -21,7 +21,7 @@ _putchar(a);
 _putchar(b);
 _putchar(':');
 _putchar(c);
-_putcahr(d);
+_putchar(d);
 _putchar('\n');
 d++;
 }
