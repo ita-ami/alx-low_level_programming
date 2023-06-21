@@ -10,17 +10,24 @@ int main(void)
 	for (a=0; a <= (1024 / 3); a++)
 	{
 		m = (a * 3);
-		k = (a * 5);
 		if (m < n)
 		{
 			sum1 = (sum1 + m);
 		}
+	}
+		
+	for (a=0; a <= (1024 / 3); a++)
+	{
 		k = (a * 5);
 		if (k < n)
 		{
 			sum2 = (sum2 + k);
 		}
-		n = 1024;
+	
+	for (a=0; a <= (1024 / 3); a++)
+	{
+		m = (a * 3);
+		k = (a * 5);
 		if (k == m)
 		{
 			mi = (mi + m);
