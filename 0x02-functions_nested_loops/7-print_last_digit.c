@@ -8,8 +8,7 @@ if (n < 0)
 m = -m;
 _putchar('0' + m);
 return (m);
-{
-else
+}else
 {
 _putchar('0' + m);
 return (m);
