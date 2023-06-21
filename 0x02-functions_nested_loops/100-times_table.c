@@ -15,15 +15,37 @@ void print_times_table(int n)
 			for (j = 0; j <= 0; j++)
 			{
 				int d = (i * j);
-				if (j == n)
+				if (d <= 9)
 				{
-					printf("%d", d);
+					if (j == n)
+					{
+						printf("  %d",d)
+					}
+					else
+						printf("  %d, ",d);
 				}
-				else
-					printf("%d, ",d);
+				else if (d <= 99)
+				{
+					if (j == n)
+					{
+						printf(" %d",d);
+					}
+					else
+						printf(" %d, ",d);
+				}
+				else if (d <= 999)
+				{
+					if (j == n)
+					{
+						printf("%d",d);
+					}
+					else
+						printf("%d, ",d);
+				}
 			
 			}
 		}
 
 	}
+
 }
