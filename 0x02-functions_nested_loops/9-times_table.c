@@ -9,9 +9,29 @@ void times_table(void)
 		while (b <= 9)
 		{
 			int d = (a * b);
-			_putchar(d + '0');
-			_putchar(',');
-			_putchar(' ');
+			if (d <= 9)
+			{
+				_putchar(' ');
+				_putchar(d + '0');
+				if (b < 9)
+				{
+					_putchar(',');
+					_putchar(' ');
+				}
+			}
+			else
+			{
+				int e = (d \ 10);
+				int f = (d % 10);
+
+				_putchar(e + '0');
+				_putchar(d + '0');
+				if (b < 9)
+				{
+					_putchar(',');
+					_putchar('\n');
+				}
+			}
 			b++;
 		}
 		_putchar('\n');
