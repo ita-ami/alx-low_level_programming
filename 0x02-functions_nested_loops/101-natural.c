@@ -3,9 +3,10 @@ int main(void)
 {
 	int n = 1024;
 	int a = 0;
-	int m, k, sum1, sum2, sum;
+	int m, k, mi, sum1, sum2, sum, l;
 	sum1 = 0;
 	sum2 = 0;
+	mi = o;
 	for (a=0; a <= (1024 / 3); a++)
 	{
 		m = (a * 3);
@@ -17,14 +18,22 @@ int main(void)
 	for (a = 0; a <= (1024 /5); a++)
 	{
 		k = ( a * 5);
-		if (((k % 5) != 0) && (k < n))
+		if (k < n)
 		{
 			sum2 = (sum2 + k);
 		}
 
 	}
-	sum = (sum1 + sum2);
-	printf("%d\n%d\n%d",sum1,sum2,sum);
+	for (a = 0; a< n; a++)
+	{
+		l = (a * 3);
+		if ((mi % 5) == 0)
+		{
+			mi = (mi +l);
+		}
+	}
+	sum = (sum1 + sum2 - mi);
+	printf("%d\n%d\n%d\n",sum1,sum2,mi,sum);
 	return (0);
 }
 
