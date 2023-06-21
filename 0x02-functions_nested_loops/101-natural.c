@@ -9,7 +9,7 @@ int main(void)
 	for (a=0; a <= 400; a++)
 	{
 		m = (a * 3);
-		if (m <= n)
+		if (m < n)
 		{
 			sum1 = (sum1 + m);
 		}
@@ -17,7 +17,7 @@ int main(void)
 	for (a = 0; a <= 300; a++)
 	{
 		k = ( a * 5);
-		if (k <= n)
+		if (k < n)
 		{
 			sum2 = (sum2 + k);
 		}
