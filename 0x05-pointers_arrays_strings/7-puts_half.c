@@ -12,7 +12,7 @@ void puts_half(char *str)
 	k = l / 2;
 	for (i = k; i <= 500; i++)
 	{
-		c = str(i);
+		c = str[i];
 		if (c == '\0')
 		{
 			i = 500;
