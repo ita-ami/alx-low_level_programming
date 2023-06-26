@@ -8,9 +8,17 @@ void puts_half(char *str)
 	char c;
 	int i, l, k;
 
-	l = _strlen(str);
-	k = l / 2;
-	for (i = k; i <= 500; i++)
+	 for (i = 0; i < 1000; i++)
+        {
+                c = str[i];
+                if (c == '\0')
+                {
+                        k = i;
+                        i = 1000;
+                }
+        }
+	 l = k / 2;
+	for (i = l; i <= 500; i++)
 	{
 		c = str[i];
 		if (c == '\0')
