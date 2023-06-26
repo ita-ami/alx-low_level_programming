@@ -7,6 +7,7 @@ void rev_string(char *s)
 {
 	int i, k;
 	char c, d;
+	char f[];
 
 	for (i = 0; i < 1000; i++)
 	{
@@ -17,14 +18,13 @@ void rev_string(char *s)
 			i = 1000;
 		}
 	}
-	char f[k];
 	
 	for (i = (k - 1); i >= 0; i--)
 	{
 		d = s[i];
 		f[k - 1 - i] = d;
 	}
-	for (i = o; i < k; i++)
+	for (i = 0; i < k; i++)
 	{
 		s[i] = f[i];
 	}
