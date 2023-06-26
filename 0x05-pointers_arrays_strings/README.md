@@ -6,3 +6,4 @@ create _puts file
 create print_rev file
 create rev_string file
 create puts2 file
+create puts_half file
