@@ -18,7 +18,6 @@ void rev_string(char *s)
 			i = 1000;
 		}
 	}
-	
 	for (i = (k - 1); i >= 0; i--)
 	{
 		d = s[i];
