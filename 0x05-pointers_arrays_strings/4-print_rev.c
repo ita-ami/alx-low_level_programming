@@ -3,9 +3,7 @@
  *print_rev - a function that prints a string, in reverse
  *@s: the argument
  */
-void print_rev(char *s)
-{
-	int i, a, k;
+void pri, k;
 	char c, d;
 
 	for (i = 0; i < 1000; i++)
