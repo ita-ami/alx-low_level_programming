@@ -16,6 +16,6 @@ void _puts(char *str)
 		{
 			i = 1000;
 		}
-		_putchar('\n');
 	}
+	_putchar('\n');
 }
