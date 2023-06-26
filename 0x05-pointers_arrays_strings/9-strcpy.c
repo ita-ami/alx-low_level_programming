@@ -10,13 +10,13 @@ char *_strcpy(char *dest, char *src)
 	int i;
 	char c;
 
-	for (i = 0; i < 300; i++)
+	for (i = 0; i < 3000; i++)
 	{
 		c = src[i];
 		if (c == '\0')
 		{
 			dest[i] = c;
-			i = 300;
+			i = 3000;
 		}
 		else
 		{
