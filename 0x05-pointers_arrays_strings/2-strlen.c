@@ -15,7 +15,7 @@ int _strlen(char *s)
 		if (c == '\0')
 		{
 			k = i;
-			i = 100;
+			i = 1000;
 		}
 		i++;
 	}
