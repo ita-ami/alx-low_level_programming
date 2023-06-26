@@ -7,7 +7,7 @@ void puts_half(char *str)
 {
 	char c;
 	int i, l, k;
-	
+
 	for (i = 0; i < 1000; i++)
 	{
 		c = str[i];
