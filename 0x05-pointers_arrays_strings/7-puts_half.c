@@ -18,7 +18,7 @@ void puts_half(char *str)
                 }
         }
 	 l = (k + 1) / 2;
-	for (i = (l - 1); i <= 500; i++)
+	for (i = l; i <= 500; i++)
 	{
 		c = str[i];
 		if (c == '\0')
