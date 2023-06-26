@@ -6,7 +6,7 @@
 void pri, k;
 	char c, d;
 
-	for (i = 0; i < 1000; i++)
+	for(i = 0; i < 1000; i++)
 	{
 		c = s[i];
 		if (c == '\0')
@@ -15,7 +15,7 @@ void pri, k;
 			i = 1000;
 		}
 	}
-	for (i = (k - 1); i >= 0; i--)
+	for(i = (k - 1); i >= 0; i--)
 	{
 		d = s[i];
 		_putchar(d);
