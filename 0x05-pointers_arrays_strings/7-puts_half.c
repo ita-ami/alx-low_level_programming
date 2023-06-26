@@ -17,7 +17,7 @@ void puts_half(char *str)
                         i = 1000;
                 }
         }
-	 l = k / 2;
+	 l = (k + 1) / 2;
 	for (i = (l - 1); i <= 500; i++)
 	{
 		c = str[i];
