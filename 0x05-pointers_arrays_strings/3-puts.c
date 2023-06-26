@@ -11,11 +11,12 @@ void _puts(char *str)
 	for (i = 0; i < 1000; i++)
 	{
 		c = str[i];
-		_putchar(c);
 		if (c == '\0')
 		{
 			i = 1000;
 		}
+		else
+			_putchar(c);
 	}
 	_putchar('\n');
 }
