@@ -9,6 +9,7 @@ char *_strcat(char *dest, char *src)
 {
 	int i, j, l;
 	char *ptr = dest;
+
 	l = 0;
 	for (i = 0; i <= 300; i++)
 	{
