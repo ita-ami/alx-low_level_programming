@@ -37,5 +37,5 @@ char *_strcat(char *dest, char *src)
 	{
 		dest[k] = res[k];
 	}
-	return dest;
+	return (dest);
 }
