@@ -7,29 +7,18 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	int i, j, l;
-	char *ptr = dest;
+	char *s = dest;
 
-	l = 0;
-	for (i = 0; i <= 300; i++)
+	while (*dest != '\0')
 	{
-		if (dest[i] != '\0')
-		{
-			l++;
-		}
-		else
-		{
-			i = 301;
-		}
+		dest++;
 	}
-	for (j = 0; j < 300; j++)
+	while (*src != '\0')
 	{
-		if (j > l)
-		{
-			dest[j] = src[(j - l)];
-		}
-		if (src[j - l] == '\0')
-			j = 300;
+		*dest = *src;
+		dest++;
+		src++;
 	}
-	return (ptr);
+	*dest = '\0';
+	return (s);
 }
