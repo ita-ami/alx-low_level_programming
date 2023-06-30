@@ -19,7 +19,7 @@ int _strcmp(char *s1, char *s2)
 	{
 		l = i + 2;
 		if (s2[i] == '\0')
-			i= 1000;
+			i = 1000;
 	}
 	if (j == l)
 	{
