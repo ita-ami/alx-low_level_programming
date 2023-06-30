@@ -4,3 +4,4 @@ create the function _strncpy file
 create the _strcmp function file
 create the reverse_array function file
 create string_toupper function file
+create the cap_string function file
