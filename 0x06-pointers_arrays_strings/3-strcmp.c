@@ -9,6 +9,8 @@ int _strcmp(char *s1, char *s2)
 {
 	int i, j, k, l;
 
+	j = 0;
+	l = 0;
 	for (i = 0; i < 1000; i++)
 	{
 		j = i + 2;
